@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang = "eng">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rae Lasko</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="screens">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <div class="container" id="container">
+      <div class="row" id="body">
+        <div class="col l12" id="admissions">
+          <div class="row orange-text text-darken-3 center-align" id="header_row">
+            <h4>Personalized University Portal</h4>
+            <h6>Redesigning the Admissions Process</h6>
+          </div>
+          <div class="row" id="body_row">
+            <h6 class="orange-text text-darken-2 subhead">Project Overview</h6>
+            <h6>Working in teams of two, students will collect stories from fellow classmates about their experience of getting to Carnegie Mellon. This journey includes the workstudents do from the time they learn of their acceptance through the time they arrive on campus. Based on insights from the collected stories, teams will envision a preferred future and use this vision to create a new responsive website that helps incoming students transition from home to school.</h6>
+            <h6>The process should take the form of an Analysis-Synthesis Model.</h6>
+            <h6>Team: Tobi Li, Rae Lasko<br/>Fall 2016   |   3.5 Weeks</h6>
+            <h6 class="orange-text text-darken-2 subhead">Design Specifications</h6>
+            <ul class="list">
+              <li>Mobile interface should be vertical (1334x750)</li>
+              <li>Desktop interface should be horizontal (1280 x 1024)</li>
+            </ul>
+
+            <h6 class="orange-text text-darken-2 subhead">Observations and Framework</h6>
+            <h6>We began our project by engaging in directed storytelling with 4 current Carnegie Mellon Students (1 BHCI, 2 MHCI, 1 PhD in HCI) regarding their experience of getting to Carnegie Mellon.</h6>
+            <h6>Based on the interviews, we sketched the below customer journey map for the current state. We focused on 3 phases in this journey: pre-admission visit (interview), campus visit and pre-arrival preparation</h6>
+            <div class="row center-align">
+              <div class="col l8 push-l2">
+                <img class="responsive-img" src="images/screen/map1.png">
+                <h6 class="caption">Draft of Customer Journey Map</h6>
+              </div>
+            </div>
+            <h6>After integrating feedback, we iterated on the customer journey map for the current state</h6>
+            <div class="row center-align">
+              <div class="col l8 push-l2">
+                <img class="responsive-img" src="images/screen/map2.png">
+                <h6 class="caption">Current State</h6>
+              </div>
+            </div>
+
+            <h6 class="orange-text text-darken-2 subhead">Imperatives and Problem Selection</h6>
+            <h6>Based on our customer journey map, we identified information organization and management as a key issue. Many of our interviewees found the communication from CMU to be unclear and at times overwhelming. The CMU website is organized by each department which means that incoming students often have hard time finding the desired information because they are not familiar with the internal structure of CMU. As a result they aren't clear on which department they should search for or contact. Furthermore, new students often don’t even know what information they lack, or tasks they need to do. They suffer from information overloading from the scattered information and lack of time and context based notifications.<br/><br/>To address this issue, we propose a personalized context-aware responsive webpage that displays information relevant to the student and their current context (time/location).</h6>
+
+            <h6>We then outlined the preferred future and drafted a hypothetical customer journey map.</h6>
+            <div class="row center-align">
+              <div class="col l8 push-l2">
+                <img class="responsive-img" src="images/screen/map3.png">
+                <h6 class="caption">Draft of Preferred Customer Journey Map</h6>
+              </div>
+            </div>
+
+            <h6>Once again we solicited feedback, and conducted more interviews to iterate on the preferred future.</h6>
+            <div class="row center-align">
+              <div class="col l8 push-l2">
+                <img class="responsive-img border" src="images/screen/map4.png">
+                <h6 class="caption">Preferred Future Customer Journey Map</h6>
+              </div>
+            </div>
+
+            <br>
+            <h6>To illustrate the value of our proposed solution, we developed two two scenarios.</h6>
+            <h6 class="sub_subhead">Scenario 1: Campus Visit</h6>
+            <div class="row paragraph_container">
+              <h6 class="paragraph">John is an admitted prospective student for the CMU MHCI program. He has a business trip in the Pittsburgh area so he decided to have a campus visit before the school starts.</h6>
+              <h6 class="paragraph">When John arrives on campus, the mobile web app detects his location and the web app changes to “campus visit” mode. The campus map module appears at the top, and highlights locations that would be of particular interest to him, such as the University Center and Newell-Simon Hall. Another card recommends John to attend today’s seminar “Introduction to the Robotics Institute” based on his interest keywords extracted from his application. John clicks on “view details” of this event, which brings up an abstract of this seminar. He finds the seminar to be very relevant to his work, and decides to attend the seminar. After he clicks on “I’m going”, the app RSVPs the seminar for him, and displays the route to the auditorium on the campus map module.</h6>
+              <h6 class="paragraph">After the seminar, John opens the web app and finds out that 2 professors and 1 current graduate student are interested in meeting with him. He schedules meetings with these people, has some very pleasant time talking to them and learning about the MHCI program, and decides to come to CMU. In our system, faculty and current students can voluntarily indicate their willingness and availability in meeting prospective students. The system can then automatically match them with the visiting prospective students based on their shared research interests.</h6>
+            </div>
+            <br>
+            <h6>Through personalization, our design also addresses underserved populations by providing tailored information that otherwise often buried deep in departmental websites.</h6>
+            <h6 class="sub_subhead">Scenario 2: Preparation for arrival</h6>
+            <div class="row paragraph_container">
+              <h6 class="paragraph">Yuki is an incoming student from Japan for the CMU MHCI program. After accepting her offer, she is anxious because she doesn’t know what to do to prepare for her study at CMU. She tried exploring the CMU website but it's not very well organized and she's afraid she may have missed some important information.</h6>
+              <h6 class="paragraph">When Yuki logs into her portal, she sees a personalized checklist with deadlines automatically generated for her based on the information from different departments at CMU. The app also recommends her a CMU alumni event in Tokyo and a guide on how to apply for a U.S visa as a Japanese citizen.</h6>
+              <h6 class="paragraph">Based on the academic and professional backgrounds of Yuki extracted from her application, the app will also push her relevant articles on relevant research or career development opportunities from CMU.</h6>
+              <h6 class="paragraph">Yuki can also “bookmark” important pages she sees on CMU website. Our app will create a module for each bookmarked page, extract the key information automatically, and update the content dynamically. This enables Yuki to use a app as a dashboard for viewing all the information that she cares about in one place.</h6>
+            </div>
+
+            <h6 class="orange-text text-darken-2 subhead">Prototyping</h6>
+            <h6>Because we wanted to make the information student centric, we decided to make the information on our website as modular as possible. This would both help students quickly take in information and allow us to reorganize it in many unique ways for our equally unique students.</h6>
+            <h6 class="sub_subhead">Lo-Fi</h6>
+            <br>
+            <div class="row center-align">
+              <div class="col l8 center-align">
+                <img class="responsive-img" src="images/screen/wf1.png">
+              </div>
+              <div class="col l4 center-align">
+                <img class="responsive-img" src="images/screen/wf2.png">
+              </div>
+              <h6 class="caption">Wireframes for Desktop</h6>
+            </div>
+            <div class="row center-align">
+              <div class="col l7 center-align">
+                <img class="responsive-img" src="images/screen/wf3.png">
+              </div>
+              <div class="col l5 center-align">
+                <img class="responsive-img" src="images/screen/wf4.png">
+              </div>
+              <h6 class="caption">Wireframes for Mobile</h6>
+            </div>
+
+            <h6 class="sub_subhead">Medium-Fi</h6>
+            <br>
+            <h6>Next, we solicited feedback began iterating with higher fidelity in Sketch. In particular, we focused on finding a grid arrangement that would be the easiest to understand at a glance.</h6>
+            <div class="row">
+              <div class="row valign-wrapper">
+                <div class="col l4 valign">
+                  <img class="responsive-img border" src="images/screen/mockup1.png">
+                </div>
+                <div class="col l4 valign">
+                  <img class="responsive-img border" src="images/screen/mockup2.png">
+                </div>
+                <div class="col l4 valign">
+                  <img class="responsive-img border" src="images/screen/mockup3.png">
+                </div>
+              </div>
+            <div class="row">
+              <h6 class="caption center">Sample Assets</h6>
+            </div>
+            </div>
+
+            <h6>In the next iteration, we added the modules of information customized to Yuki.</h6>
+            <div class="row">
+              <div class="col l6 push-l3">
+                <img class="responsive-img" src="images/screen/mockup4.png">
+              </div>
+            </div>
+
+            <div class="row valign-wrapper">
+              <div class="col l7">
+                <h6 class="valign">Because of the modular design of the webpage, the layout very naturally fit to the mobile size. Our biggest concern was how many modules to show at any one time in order to be both small enough to not make scrolling a pain, and large enough to be easily readable.</h6>
+                <h6>We ultimately decided to show just over one and half per a page after lots of experimenting and exporing similar layouts. The half module showing also encouraged users to scroll.</h6>
+              </div>
+              <div class="col l4 push-l1">
+                <img class="responsive-img border" src="images/screen/mobile.png">
+              </div>
+            </div>
+
+            <h6 class="orange-text text-darken-2 subhead">Final Assets and Solution</h6>
+            <h6 class="sub_subhead">Key Features</h6>
+            <h6 class="paragraph1">The display, content and order of the modules (cards) depend on the current time, status and location of the user. For example, the first card will be a campus map if the user is on campus, and a checklist with deadlines if the user is off campus and in the pre-arrival preparation stage. Students are also able to reorder the cards if they wish.</h6>
+            <h6 class="paragraph1">We extract user information from the students' application to avoid having them fill out redundant forms.</h6>
+            <h6 class="paragraph1">We use collaborative filtering technique to deliver information on events and articles based on the users’ interests and career goals specified in their applications.</h6>
+            <h6 class="paragraph1">Students are able to generate their own "bookmark" modules from any CMU affiliated website.</h6>
+            <h6 class="paragraph1">Most importantly, the modules were designed to be quickly extensible so that modules of all topics can be generated as needed without the need for new designs. Templates can easily be provided to school administration for easy maintainence and automatic updating of the website.</h6>
+
+            <div class="row">
+              <div class="col l8 push-l2">
+                <img class="responsive-img" src="images/screen/complete.jpg">
+                <h6 class="caption center-align">Final Desktop Webpage</h6>
+              </div>
+            </div>
+
+            <h6>When a widget/card is clicked on, it expands and show details or redirects to another webpage based on the content.</h6>
+            <div class="row">
+              <div class="col l8 push-l2">
+                <img class="responsive-img border" src="images/screen/map.jpg">
+                <h6 class="caption center-align">Expanded Widget</h6>
+              </div>
+            </div>
+
+            <h6 class="paragraph1">To make our portal truly a “one stop” information hub for the incoming student, we also enable students to create customized widgets.</h6>
+            <h6 class="paragraph1">When an incoming student is browsing any CMU webpage, she can “bookmark” the page to create a card on their portal. The tool extracts key information on the page, and updates dynamically when the source web page updates.</h6>
+            <h6 class="paragraph1">This will enable the student to keep all the information they care in our portal and use the portal as a dashboard to keep up to date on important information.</h6>
+
+            <div class="row center-align">
+              <div class="row">
+                <div class="col l8">
+                  <img class="responsive-img" src="images/screen/bookmark2.jpg">
+                </div>
+                <div class="col l4">
+                  <img class="responsive-img border" src="images/screen/bookmark_only.jpg">
+                </div>
+              </div>
+              <h6 class="caption">Bookmarking Feature</h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

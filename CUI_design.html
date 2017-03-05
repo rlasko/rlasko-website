@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang = "eng">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rae Lasko</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="cui_page" id="cui_design">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <div class="container" id="container">
+      <div class="row" id="entire_page">
+        <div class="row orange-text text-darken-3 center-align" id="header_row">
+          <h4>Amazon EchoView</h4>
+          <h6>A Conversational User Interface Design Project</h6>
+        </div>
+
+        <div class="row" id="body_row">
+          <h6 class="orange-text text-darken-2 subhead">About Conversational User Interfaces</h6>
+          <h6>In recent years, conversational user interfaces (CUIs) have become more popular with the most advanced offering something approaching a fluent, spoken conversation between humans and machines. Conversational interaction can benefit users in situations where their hands and/or their visual attention are not available, such as when driving a car or cooking in a kitchen. They also help in situations where the user’s needs do not map well to the hierarchical information structure of many online systems, which make it tedious to drill down for terse information.</h6>
+          <h6 class="orange-text text-darken-2 subhead">The Project</h6>
+          <h6>Research and prototype a conversational user interface that reimagines the retail dressing room experience. In particular, the solution should find harmony between the CUI's functional and interactive form.<br/>Avi Romanoff, Sharon Rajkumar, Rae Lasko<br/>Spring 2017   |   3 weeks</h6>
+          <h6></h6>
+          <h6 class="orange-text text-darken-2 subhead">Basic Research Highlights</h6>
+          <h6>Sourced from research in the psychology of buying</h6>
+          <ul class="list">
+            <li>Setting influences emotion, emotion influences behavior</li>
+            <li>Mirrors influence lighting, spaciousness, self-image</li>
+            <li>Effective salespeople are similar to customers demographically</li>
+            <li>Visit to dressing room strongly predicts purchase</li>
+            <li>90% of people use dressing rooms</li>
+            <li>84% ask friends</li>
+          </ul>
+          <h6 class="orange-text text-darken-2 subhead">Competitve Analysis</h6>
+          <div class="row comp_ana_entry">
+            <div class="col l9 comp_ana_des">
+              <h6 class="sub_subhead">Kaziunas et al (CHI ’11):</h6>
+              <h6>
+                Surveyed and studied users about UI, privacy, social. Key insight: input from friends highly very influential. Prototyped dressing room with social and UI focus.
+              </h6>
+            </div>
+            <div class="col l3 comp_ana_img">
+              <img class="responsive-img" src="images/cui/cui_design/ca1.png">
+            </div>
+          </div>
+          <div class="row comp_ana_entry">
+            <div class="col l9 comp_ana_des">
+              <h6 class="sub_subhead">Ralph Lauren</h6>
+              <h6>
+                 RFID recognizes items, mirror shows sizes, colors, recommendations. “Call an associate” button summons salesperson (via iPad). Configurable lighting: Fifth Ave Daylight, East Hampton Sunset, Evening at The Polo Bar. Supports multiple languages and automatic translation of sales assistant. Currently in use.
+              </h6>
+            </div>
+            <div class="col l3 comp_ana_img">
+              <img class="responsive-img" src="images/cui/cui_design/ca2.png">
+            </div>
+          </div>
+          <div class="row comp_ana_entry">
+            <div class="col l9 comp_ana_des">
+              <h6 class="sub_subhead">Ikebukuro</h6>
+              <h6>
+                Camera scans customer's body and allows user to browse Urban Research clothes. Try on clothes virtually in the store via augmented reality and screen responds to movements and simulates how the clothing moves and how it fits on their virtual image.
+              </h6>
+            </div>
+            <div class="col l3 comp_ana_img">
+              <img class="responsive-img" src="images/cui/cui_design/ca3.png">
+            </div>
+          </div>
+          <div class="row comp_ana_entry">
+            <div class="col l9 comp_ana_des">
+              <h6 class="sub_subhead">Rebecca Minkoff</h6>
+              <h6>
+                RFID item detection for mirrored display that shows videos and inspirational content. Shoppers touch the surface to request associates to prepare fitting rooms, order drinks and change the environment’s lighting. Mobile app integration.
+              </h6>
+            </div>
+            <div class="col l3 comp_ana_img">
+              <img class="responsive-img" src="images/cui/cui_design/ca4.png">
+            </div>
+          </div>
+
+          <h6 class="orange-text text-darken-2 subhead">Exploratory Scenarios and Preliminary Exploration</h6>
+          <h6>We then imagined a variety of possible futures with CUIs in the retail space and narrowed it down to three:</h6>
+          <ul class="list">
+            <li>Bring the dressing room home: A touch screen projector is attached to a regular mirror that makes it smart. A virtual stylist answers questions about choice of clothes and also make suggestions on what to purchase. You can ask the CUI to suggest jewelry, shoes, bags and other outfits. Add shortlisted items to a trunk. Trunk is sent home. Keep only the ones you want.</li>
+            <li>A customer browses clothes on her favorite store’s website. She adds a bunch of clothes she wants to try out to the store’s dressing room. Later that afternoon she visits the store and checks in with the CUI outside the dressing room. An associate arrives with refreshments for her to enjoy while the dressing room is stocked with the clothes she had wanted to try on.</li>
+            <li>A customer is in the dressing room and wants to ask her friend Emily what she thinks of the blouse she has tried on. She asks the room to start a FaceTime call with Emily. The room agrees and soon Emily appears in a live chat window on the mirror.</li>
+          </ul>
+          <h6>We decided to choose the first scenario because our research and competitive analysis showed that people were uncomfortable speaking out loud in a public dressing room especially about sensitive topics (“Can I get a bigger size?”). We also found untapped potential in the online shopping space where consumers are hesitant to make purchases without first seeing what clothing would look on them. Additionally, we chose to make the CUI a fashion assistant that makes recommendations because we found that consumers often seek the advice of friends but worry they may not be impartial. Finally, we opted to send users a trunk of the clothing they select for try-on purposes to further decrease the users’ perceived risk of online shopping.</h6>
+
+          <h6 class="sub_subhead">Use Cases:</h6>
+          <ul class="list">
+            <li>Planning what to wear for special occasions</li>
+            <li>Shopping from home with in-store dressing room experience</li>
+            <li>Finding matching accessories for outfit</li>
+          </ul>
+
+          <h6 class="sub_subhead">How It Works Overview:</h6>
+          <ul class="list">
+            <li>User interface is a mirror</li>
+            <li>The conversation is displayed as an overlay</li>
+            <li>Whenever relevant, the user use the touchscreen</li>
+            <li>However the interaction is primarily speech based</li>
+          </ul>
+          <br>
+          <div class="row">
+            <div class="col l4 center-align">
+              <img class="responsive-img" src="images/cui/cui_design/tree.png">
+              <h6 class="caption">Conversation Tree Diagram</h6>
+            </div>
+            <div class="col l4 center-align">
+              <img class="responsive-img" src="images/cui/cui_design/mockup.png">
+              <h6 class="caption">Paper Prototype</h6>
+            </div>
+            <div class="col l4 center-align">
+              <img class="responsive-img" src="images/cui/cui_design/avi.png">
+              <h6 class="caption">Hold up items to ask for an opinion</h6>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="col l8">
+              <br>
+              <h6 class="sub_subhead">Selection Based UI Rendering:</h6>
+              <h6>Using a combination of selection and voice provides users more flexibility when wanting to minimize noise (i.e. a sleeping spouse) and accessibility for deaf or mute users. It also aids in discovery and lowers the learning curve by providing in context suggestions.</h6>
+              <br>
+              <br>
+              <h6>Note that the image depict all of the steps as remaining on the screen though in the actual product only the current step and previous step would be shown.</h6>
+            </div>
+            <div class="col l4 center-align">
+              <img class="responsive-img" src="images/cui/cui_design/conversation1.png">
+              <h6 class="caption">Conversation tree</h6>
+            </div>
+          </div>
+
+          <h6 class="orange-text text-darken-2 subhead">Experience Prototyping and User Testing</h6>
+          <h6>Next we built an interactive paper prototype using a real mirror and a Wizard of Oz.</h6>
+          <div class="row">
+            <div class="row valign-wrapper">
+              <div class="col l4 push-l2 valign">
+                <img class="responsive-img" src="images/cui/cui_design/asset1.png">
+              </div>
+              <div class="col l4 push-l2 valign">
+                <img class="responsive-img" src="images/cui/cui_design/asset2.png">
+              </div>
+            </div>
+          <div class="row">
+            <h6 class="caption center">Sample Assets</h6>
+          </div>
+          </div>
+
+          <h6>To depict the augmented reality overlay of ties and necklaces, we hung them on the string. The Wozzers pulled the string back and forth as the user tried them on:</h6>
+          <div class="row">
+            <div class="col l8 push-l2">
+              <img class="responsive-img" src="images/cui/cui_design/asset3.png">
+            </div>
+          </div>
+          <div class="row center-align"><h6 class="caption">User Scenario: Your task is to find and purchase a matching (tie/necklace) for the outfit you have on.</h6></div>
+          <br>
+          <div class="row center-align">
+            <div class="col l8 push-l2">
+              <img class="responsive-img" src="images/cui/cui_design/assets4.png">
+              <h6 class="caption">Close up of the interface (AR overlay of necklace/tie not shown)</h6>
+            </div>
+          </div>
+          <h6 class="sub_subhead">Results</h6>
+          <ul class="list">
+            <li>Users were very prone to tapping instead of speaking</li>
+            <li>Was unclear to the audience that the string ties were an AR overlay but the user thought it was very obvious</li>
+            <li>Some awkward transitions from silence to voice interface</li>
+            <li>Error recovery should verbally suggest next steps</li>
+            <li>Should avoid using gender</li>
+            <li>The trunk aspect was unnecessary</li>
+            <li>CUI should be more apparent and more active</li>
+            <li>Security concerns because of the camera</li>
+          </ul>
+          <br>
+          <h6 class= "orange-text text-darken-2 subhead">Final Iteration</h6>
+          <h6 class="sub_subhead">Major Revisions from Previous Iteration:</h6>
+          <ul class="list">
+            <li>We thought that the users’ propensity for touching the screen instead of talking were mainly due to the classroom environment and the WOZ setup that encouraged users to tap. To combat this we built a higher fidelity interface that is able to give feedforward for speaking in the form of a moving audio wave, and is less distracting because there is no WOZ. We chose to keep the multi-modality input recognition for accessibility and to allow users the option to not disturb others in their home.</li>
+            <li>Instead of matching the gender of the agent to the user, we opted for an androgynous CUI to avoid alienating non-cisgendered users.</li>
+            <li>To address the awkward transitions from the voice interface to the touch interface and vice versa, we added audio and visual feedback.</li>
+            <li>We added a physical shutter that is operated solely by the user to promote the perception of control and privacy.</li>
+            <li>We decided to focus our final demo on one aspect of the CUI that we did not explore in detail before - color selection and theory</li>
+          </ul>
+          <h6 class="sub_subhead">Final Iteration Description</h6>
+          <div class="row">
+            <div class="col l8">
+              <h6>We decided to pitch our project as an Amazon product called Amazon EchoView. Amazon would sell the units at cost to consumers and every purchase made using the device would receive a nominal discount. Amazon’s profits would come from the increased purchases made by consumers and consumers would purchase the device as an investment. Though Amazon would be the primary retailer, other companies would be able to build plugins for their own catalogue, much as Amazon’s Alexa has “skills”. We chose to make our CUI, Ash, an androgynous sibling of Alexa’s who’s persona is specialized to their job - helping people make clothing decisions. One of Ash’s specialties is color theory where they detect the two primary colors the user is wearing and suggest a third accent color in the form of an accessory. Ash is wholly integrated into Amazon’s e-commerce purchasing platform and is able to both suggest items from the user’s past purchases as well as new items from the catalog.</h6>
+            </div>
+            <div class="col l4 center-align">
+              <img class="responsive-img" src="images/cui/cui_design/demo1.png">
+              <h6 class="caption">Demo Outline</h6>
+            </div>
+          </div>
+          <div class="row center-align">
+            <div class="row">
+              <div class="col l4 center-align">
+                <img class="responsive-img" src="images/cui/cui_design/demo2.png">
+              </div>
+              <div class="col l4 center-align">
+                <img class="responsive-img" src="images/cui/cui_design/demo3.png">
+              </div>
+              <div class="col l4 center-align">
+                <img class="responsive-img" src="images/cui/cui_design/demo4.png">
+              </div>
+            </div>
+            <h6 class="caption">Wireframes for Demo</h6>
+          </div>
+
+          <h6 class="sub_subhead">Physical Form</h6>
+          <h6>Though not a key part of the project, we also designed the physical form that our CUI would take. This would be mounted above the user's existing mirror and project the AR overlay down.</h6>
+          <div class="row">
+            <div class="col l6 push-l3">
+              <img class="responsive-img" src="images/cui/cui_design/physform.png">
+            </div>
+            <h6 class="caption">Physical Form Iterations</h6>
+          </div>
+          <h6>We eventually chose a version that included only a single light that changed value and hue to mimick different lighting situations. We also chose to place the "on" indicator light around the outside of the device to be more noticeable:</h6>
+          <div class="row">
+            <div class="col l6 push-l3">
+              <img class="responsive-img" src="images/cui/cui_design/physformfinal.png">
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+
+          <h6 class="sub_subhead">User and Scenario</h6>
+          <div class="row center-align">
+            <div class="col l6 push-l3">
+              <img class="responsive-img" src="images/cui/cui_design/user.png">
+              <h6 class="caption">Persona of the Demo User</h6>
+            </div>
+          </div>
+          <h6>Amanda is going to a party on Friday and wants to find a matching scarf for the outfit she'll be wearing. She wants the scarf to make a bold finish for her outfit.</h6>
+          <h6>To help Amanda, Ash draws on a combination of Color Theory from Joseph Albers, and the fashion theory, such as the rule of three, from leading fashion experts.</h6>
+          <div class="row center-align">
+            <div class="col l6 push-l3">
+              <img class="responsive-img" src="images/cui/cui_design/colortheory.png">
+              <h6 class="caption">Graphical Representation of Ash's Intelligence</h6>
+            </div>
+          </div>
+          <h6>Ash uses it's knowledge of color theory and fashion in order to recommend three color options that Amanda can use to accomplish the rule of three and complete her outfit.</h6>
+          <div class="row center-align">
+            <div class="col l6 push-l3">
+              <img class="responsive-img" src="images/cui/cui_design/demofinal.png">
+              <h6 class="caption">Demo User Interface</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
