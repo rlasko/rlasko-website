@@ -9,6 +9,16 @@ ul {
     color: dimgrey;
   }
 
+  hr {
+    border-style: solid;
+    border-color: #484848;
+    border-width: 2px 0 0 0;
+
+    width: 80%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
 ul li:before {
     content: '\2013';
     position: absolute;
