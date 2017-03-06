@@ -131,7 +131,7 @@ ul li:before {
 
 /*CUI Home*/
 .cui_page h6 {
-  font-size: 108%;
+  font-size: 100%;
   line-height: 150%;
   color: dimgrey;
 }
@@ -152,8 +152,12 @@ ul li:before {
   padding: 25px;
 }
 
+.cui_page .card_content {
+  padding: 0% 2%;
+}
+
 .cui_page .description {
-  line-height: 150%;
+  line-height: 140%;
 }
 
 .cui_page .card_header {
