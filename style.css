@@ -71,6 +71,17 @@ ul li:before {
   padding: 10px;
 }
 
+.home .nav_but {
+  color: grey;
+  /*padding-top: 25%;*/
+}
+
+.home #name_col {
+  padding-left: 1%;
+  padding-bottom: 0;
+  margin: 0;
+}
+
 .home #sm1 {
   padding: 0;
   padding-right: 5px;
@@ -336,4 +347,16 @@ ul li:before {
 
 .controls #container {
   width: 50%;
+}
+
+.about #container {
+  width: 50%;
+}
+
+.about #image_row {
+  /*padding: 3%;*/
+}
+
+.about #header_row {
+  padding: 4%;
 }
