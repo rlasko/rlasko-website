@@ -55,6 +55,14 @@ ul li:before {
   padding: 0 6%;
 }
 
+#navbar {
+  background-color: transparent;
+}
+
+#nav_button {
+  color: #FFF3E6;
+}
+
 .home .sm_img_container {
   padding: 5px;
   margin-top: 0;
@@ -197,7 +205,8 @@ ul li:before {
 }
 
 .cui_page #container {
-  width: 80%;
+  width: 70%;
+  margin-top: -55px;
 }
 
 .cui_page #title {
@@ -229,7 +238,9 @@ ul li:before {
 
 /*Apple*/
 .apple h6 {
-  font-size: 108%;
+  ffont-size: 112%;
+  font-weight: lighter;
+  margin-bottom: 20px;
   line-height: 150%;
   color: dimgrey;
 }
