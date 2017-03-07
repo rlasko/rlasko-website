@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "eng">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rae Lasko</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="cui_page" id="cui_tech">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <div class="navbar-fixed">
+      <nav class="z-depth-0" id="navbar">
+        <div class="nav-wrapper">
+          <a href="index.html" class="waves-orange btn orange darken-2" id="nav_button">Go Back</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container" id="container">
+      <div class="row" id="header_row">
+        <div class="col l3" id="image_col">
+          <img class="responsive-img" src="images/cui/research/articulab.png">
+        </div>
+        <div class="col l9" id="header_text">
+          <div class="row orange-text text-darken-3" id="title_row">
+            <h4>Technical Projects</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="body description">
+        <h6 class="orange-text text-darken-2 subhead">Overview</h6>
+        <h6 style="font-style:italic">"The ArticuLab's mission is to study human interaction in social and cultural contexts as the input into computational systems that in turn help us to better understand human interaction, and to improve and support human capabilities in areas that really matter." - Articulab Mission</h6>
+        <br>
+        <h6 class="orange-text text-darken-2 subhead">Overview</h6>
+        <h6>Throughout my time at the Articulab, I've worked on the RAPT project where we study the implication of social processes, in particular rapport, on the efficacy of peer tutoring. Our work will eventually be used to build a embodied virtual agent that builds upon the theories of rapport we develop.</h6>
+        <br>
+        <h6 class="orange-text text-darken-2 subhead">Spring 2016</h6>
+        <h6>I worked on the Annotation and Experiments subteam for the RAPT team to examine and annotate for social and tutoring behaviors.</h6>
+        <h6>We also annotated rapport by having annotators rate 30-second "thin-slices" of video for rapport between the students. I took on a project to automate this process through Amazon Mechanical Turk.</h6>
+        <br>
+        <div class="row">
+          <div class="col l8 push-l2">
+            <img class="responsive-img" src="images/cui/research/thin-slice.png">
+          </div>
+        </div>
+        <h6>In order to get a valid measure of rapport for each slice of the tutoring session, we had multiple raters rate each video, then algorithmically selected the rating. Finally, we calculated the inter-rater reliability to determine the validity of the rating.</h6>
+        <h6>To automate this, I reviewed literature on thin-slicing, crowdsourcing, and methods to detect and combat cheating, then designed a framework for actually rating the videos on Mechanical Turk. The results of my project are currently being used in the lab.</h6>
+        <h6>View the literature review <a href="images/cui/research/mturk.pdf" target="_blank">here</a>.</h6>
+        <br>
+        <h6 class="orange-text text-darken-2 subhead">Fall 2016</h6>
+        <h6>Last fall, I worked on an independent study project that sought to use temporal association rules to understand and predict dyadic behavior. The goal of using temporal association rules is to predict rapport based on behaviors that occur in the 60 seconds prior. I worked with the lab data to standarize and prepare it for analysis. Then, I used a temporal association rule algorithm to run predictions on the data.</h6>
+        <h6>View the preliminary research abstract <a href="images/cui/research/abstract.pdf" target="_blank">here</a>.</h6>
+        <h6><b>Paper currently in submission for the Educational Data Mining Conference.</b></h6>
+        <br>
+        <br>
+      </div>
+    </div>
+  </body>
+</html>

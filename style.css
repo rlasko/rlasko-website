@@ -237,7 +237,7 @@ ul li:before {
 }
 
 #cui_research #container {
-  width: 60%
+  width: 50%
 }
 
 #cui_research #image_col {
@@ -246,6 +246,19 @@ ul li:before {
 }
 
 #cui_research #header_row {
+  padding-left: 0;
+}
+
+#cui_tech #container {
+  width: 50%
+}
+
+#cui_tech #image_col {
+  padding-left: 0;
+  padding-right: 5%;
+}
+
+#cui_tech #header_row {
   padding-left: 0;
 }
 
