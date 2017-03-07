@@ -371,3 +371,51 @@ ul li:before {
 .about #header_row {
   padding: 4%;
 }
+
+/*Comm*/
+.comm  h6 {
+  font-size: 112%;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  line-height: 150%;
+  color: dimgrey;
+}
+
+.comm .font {
+  margin-bottom: 5px;
+}
+
+.comm .ita {
+  font-style: italic;
+}
+
+.comm #container {
+  width: 50%;
+}
+
+.comm #head {
+  font-family: "Helvetica Neue", Helvetica;
+	font-size: 36px;
+	font-style: normal;
+  font-weight: 500;
+}
+
+.comm #sub {
+  font-family: "Helvetica Neue", Helvetica;
+	font-size: 18px;
+  font-weight: 400;
+}
+
+.comm #body {
+  font-family: "Helvetica Neue", Helvetica;
+	font-size: 14px;
+	font-style: normal;
+  font-weight: 300;
+}
+
+.comm #cap {
+  font-family: "Helvetica Neue", Helvetica;
+	font-size: 12px;
+	font-style: italic;
+  font-weight: lighter;
+}
