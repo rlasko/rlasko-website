@@ -236,9 +236,22 @@ ul li:before {
   width: 50%;
 }
 
+#cui_research #container {
+  width: 60%
+}
+
+#cui_research #image_col {
+  padding-left: 0;
+  padding-right: 5%;
+}
+
+#cui_research #header_row {
+  padding-left: 0;
+}
+
 /*Apple*/
 .apple h6 {
-  ffont-size: 112%;
+  font-size: 112%;
   font-weight: lighter;
   margin-bottom: 20px;
   line-height: 150%;
