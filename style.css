@@ -1,3 +1,8 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #container {
+    width: 90%;
+  }
+}
 /*Home Page*/
 
 html {
@@ -137,6 +142,10 @@ ul li:before {
 .home #summary_row {
   margin-left: 0;
   margin-bottom: 20px;
+}
+
+.home #summary_row_text {
+  line-height: 150% !important;
 }
 
 .home #center_col {
