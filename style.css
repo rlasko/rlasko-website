@@ -189,7 +189,7 @@ ul li:before {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .home #entire_page {
-    padding: 8%;
+    padding: 5%;
   }
 }
 
