@@ -86,7 +86,6 @@ ul li:before {
 
 .home .nav_but {
   color: grey;
-  /*padding-top: 25%;*/
 }
 
 .home #name_col {
@@ -113,7 +112,6 @@ ul li:before {
 .home #sm4 {
   padding: 0;
   padding-left: 5px;
-
 }
 
 .home #lg1 {
@@ -159,6 +157,12 @@ ul li:before {
   margin: 0;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .home #name_row {
+    padding-left: 0px;
+  }
+}
+
 .home #title {
   font-weight: 500;
   margin-bottom: 0px;
@@ -170,16 +174,23 @@ ul li:before {
 }
 
 .home #summary_row_text {
-  line-height: 150% !important;
+  line-height: 150%;
 }
 
 .home #center_col {
   padding: 0;
+  float: none;
 }
 
 .home #entire_page {
   margin-bottom: 0;
   max-height: 100vh;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .home #entire_page {
+    padding: 8%;
+  }
 }
 
 /*CUI Home*/
